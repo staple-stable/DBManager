@@ -6,3 +6,8 @@ target/
 fix*
 DBManager
 .idea/
+*.class
+*.jar
+*.war
+*.ear
+
