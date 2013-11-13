@@ -17,7 +17,7 @@ import static org.junit.Assert.assertNotEquals;
  * Time: 6:34 PM
  * To change this template use File | Settings | File Templates.
  */
-public class EmployeeTests {
+public class EmployeeTest {
     @Test
     public void getEmpTest() {
         Employee emp = DAOFactory.getFactory().getEmployeeDAO().getEmployee(7369);

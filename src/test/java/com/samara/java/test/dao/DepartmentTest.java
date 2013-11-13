@@ -13,7 +13,7 @@ import static org.junit.Assert.assertEquals;
  * Time: 6:34 PM
  * To change this template use File | Settings | File Templates.
  */
-public class DepartmentTests {
+public class DepartmentTest {
     @Test
     public void getDepTest() {
         Department dep = DAOFactory.getFactory().getDepartmentDAO().getDepartment(10);
